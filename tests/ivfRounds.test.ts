@@ -11,7 +11,7 @@ import {IVFRounds} from "../src/ivfRounds"
             "FRESH",
             "FROZEN+LIVE_BIRTH"])
         })
-        it("should return lan array of eighteen strings with fresh and frozen IVF", () => {
+        it("should return an array of eighteen strings with fresh and frozen IVF", () => {
             expect(iVFRounds.generate(18)).toEqual([
                 "FRESH",
                 "FROZEN",
