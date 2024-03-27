@@ -9,7 +9,7 @@ export class IVFRounds {
     }
     
     fetchReplacement(num: number, live_birth: boolean): string {
-        let ivf = ""
+        let ivf: string = ""
             if (num % 3 === 0) {
                 ivf = "FRESH";
             } else {
